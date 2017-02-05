@@ -7,8 +7,8 @@ android {
         applicationId "com.google.android.nexusicons"
         minSdkVersion 21
         targetSdkVersion 25
-        versionCode 25
-        versionName "7.1.1-MOD"
+        versionCode 26
+        versionName "7.1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -21,9 +21,4 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    testCompile 'junit:junit:4.12'
 }
